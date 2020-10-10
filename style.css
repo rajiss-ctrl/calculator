@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	border: 0;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.result-box, input[type="text"]{
+font-size: 40px;
+outline: none;
+color: #fff;
+width:590px;
+height: 90px;
+background-color: blue;
+border-radius: 25px;
+margin-bottom: 10px;
+}
+input[type="button"]{
+	outline: none;
+	width: 140px;
+	height: 140px;
+	color:#fff;
+	margin: 0 10px 10px 0;
+	border-radius: 25px;
+	font-size: 40px;
+
+}
+
+.input-button1{
+	display: flex;
+}
+
+.Black-clr{
+	background-color: black;
+}
+.orge-clr{
+	background-color: orange;
+}
+.pink-clr{
+	background-color: pink;
+}
+.lightgreen-clr{
+	background-color: green;
+}
+.red-clr{
+	background-color: red;
+}
+.green-clr{
+	background-color: green;
+}

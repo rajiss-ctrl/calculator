@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="wrapper">
+			<div class="result-box"><input type="text" id="result" value=""></div>
+			<div class="input-button1">
+				<div><input class="Black-clr" type="button" value="0" onClick="dis('0')"></div>
+				<div><input class="Black-clr" type="button" id="dis" value="1" onClick="dis('1')"></div>
+				<div><input class="Black-clr"type="button" id="" value="2" onClick="dis('2')"></div>
+				<div><input  class="orge-clr" type="button" id="" value="+" onClick="dis('+')"></div>
+			</div>
+			<div class="input-button1">
+				<div><input class="Black-clr" type="button" id="" value="3" onClick="dis('3')"></div>
+				<div><input class="Black-clr" type="button" id="" value="4" onClick="dis('4')"></div>
+				<div><input class="Black-clr" type="button" id="" value="5" onClick="dis('5')"></div>
+				<div><input class="pink-clr" type="button" id="" value="-" onClick="dis('-')"></div>
+			</div>
+			<div class="input-button1">
+				<div><input class="Black-clr" type="button" id="" value="6" onClick="dis('6')"></div>
+				<div><input class="Black-clr" type="button" id="" value="7" onClick="dis('7')"></div>
+				<div><input class="Black-clr" type="button" id="" value="8" onClick="dis('8')"></div>
+				<div><input class="lightgreen-clr" type="button" id="" value="*" onClick="dis('*')"></div>
+			</div>
+			<div class="input-button1">
+				<div><input class="Black-clr"  type="button" id="" value="9" onClick="dis('9')"></div>
+				<div><input class="Black-clr" type="button" id="" value="C" onClick="clr('C')"></div>
+				<div><input class="red-clr" type="button" id="" value="=" onClick="solve()"/></div>
+				<div><input class="green-clr" type="button" id="" value="/" onClick="dis('/')"></div>
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>
